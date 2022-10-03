@@ -22,7 +22,7 @@ specifiers:
   prettier: 2.7.1
   rollup: '2'
   rollup-plugin-esbuild: 4.10.1
-  rollup-plugin-typescript2: 0.33.0
+  rollup-plugin-typescript2: 0.34.1
   ts-jest: 28.0.8
   tslib: 2.4.0
   typescript: 4.8.2
@@ -54,7 +54,7 @@ devDependencies:
   jest: 28.1.3_@types+node@18.7.14
   prettier: 2.7.1
   rollup-plugin-esbuild: 4.10.1_ajqsvouysgwbbwdvvze7lmgc4q
-  rollup-plugin-typescript2: 0.33.0_id3sp2lbl4kx3dskm7teaj32um
+  rollup-plugin-typescript2: 0.34.1_id3sp2lbl4kx3dskm7teaj32um
   ts-jest: 28.0.8_bhadli4v2ismk7zk4gf62q5sgm
   tslib: 2.4.0
   typescript: 4.8.2
@@ -4214,8 +4214,8 @@ packages:
       - supports-color
     dev: true
 
-  /rollup-plugin-typescript2/0.33.0_id3sp2lbl4kx3dskm7teaj32um:
-    resolution: {integrity: sha512-7ZXoZeX93kNb4/ICzOi2AlperVV6cAsNz8THqrbz+KNvpn47P2F/nFdK/BGhkoOsOwuYDuY57vccdZZrcd8/dA==}
+  /rollup-plugin-typescript2/0.34.1_id3sp2lbl4kx3dskm7teaj32um:
+    resolution: {integrity: sha512-P4cHLtGikESmqi1CA+tdMDUv8WbQV48mzPYt77TSTOPJpERyZ9TXdDgjSDix8Fkqce6soYz3+fa4lrC93IEkcw==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
@@ -4224,6 +4224,7 @@ packages:
       find-cache-dir: 3.3.2
       fs-extra: 10.1.0
       rollup: 2.79.0
+      semver: 7.3.7
       tslib: 2.4.0
       typescript: 4.8.2
     dev: true
