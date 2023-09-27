@@ -22,7 +22,7 @@ specifiers:
   prettier: 2.7.1
   rollup: '2'
   rollup-plugin-esbuild: 4.10.1
-  rollup-plugin-typescript2: 0.33.0
+  rollup-plugin-typescript2: 0.36.0
   ts-jest: 28.0.8
   tslib: 2.4.0
   typescript: 4.8.2
@@ -54,7 +54,7 @@ devDependencies:
   jest: 28.1.3_@types+node@18.7.14
   prettier: 2.7.1
   rollup-plugin-esbuild: 4.10.1_ajqsvouysgwbbwdvvze7lmgc4q
-  rollup-plugin-typescript2: 0.33.0_id3sp2lbl4kx3dskm7teaj32um
+  rollup-plugin-typescript2: 0.36.0_id3sp2lbl4kx3dskm7teaj32um
   ts-jest: 28.0.8_bhadli4v2ismk7zk4gf62q5sgm
   tslib: 2.4.0
   typescript: 4.8.2
@@ -4214,8 +4214,8 @@ packages:
       - supports-color
     dev: true
 
-  /rollup-plugin-typescript2/0.33.0_id3sp2lbl4kx3dskm7teaj32um:
-    resolution: {integrity: sha512-7ZXoZeX93kNb4/ICzOi2AlperVV6cAsNz8THqrbz+KNvpn47P2F/nFdK/BGhkoOsOwuYDuY57vccdZZrcd8/dA==}
+  /rollup-plugin-typescript2/0.36.0_id3sp2lbl4kx3dskm7teaj32um:
+    resolution: {integrity: sha512-NB2CSQDxSe9+Oe2ahZbf+B4bh7pHwjV5L+RSYpCu7Q5ROuN94F9b6ioWwKfz3ueL3KTtmX4o2MUH2cgHDIEUsw==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
@@ -4224,7 +4224,8 @@ packages:
       find-cache-dir: 3.3.2
       fs-extra: 10.1.0
       rollup: 2.79.0
-      tslib: 2.4.0
+      semver: 7.5.4
+      tslib: 2.6.2
       typescript: 4.8.2
     dev: true
 
@@ -4266,6 +4267,14 @@ packages:
 
   /semver/7.3.7:
     resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
+  /semver/7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -4546,6 +4555,10 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: true
+
+  /tslib/2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.8.2:
