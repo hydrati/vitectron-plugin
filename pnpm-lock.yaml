@@ -22,7 +22,7 @@ specifiers:
   prettier: 2.7.1
   rollup: '2'
   rollup-plugin-esbuild: 4.10.1
-  rollup-plugin-typescript2: 0.33.0
+  rollup-plugin-typescript2: 0.37.0
   ts-jest: 28.0.8
   tslib: 2.4.0
   typescript: 4.8.2
@@ -54,7 +54,7 @@ devDependencies:
   jest: 28.1.3_@types+node@18.7.14
   prettier: 2.7.1
   rollup-plugin-esbuild: 4.10.1_ajqsvouysgwbbwdvvze7lmgc4q
-  rollup-plugin-typescript2: 0.33.0_id3sp2lbl4kx3dskm7teaj32um
+  rollup-plugin-typescript2: 0.37.0_id3sp2lbl4kx3dskm7teaj32um
   ts-jest: 28.0.8_bhadli4v2ismk7zk4gf62q5sgm
   tslib: 2.4.0
   typescript: 4.8.2
@@ -4214,8 +4214,8 @@ packages:
       - supports-color
     dev: true
 
-  /rollup-plugin-typescript2/0.33.0_id3sp2lbl4kx3dskm7teaj32um:
-    resolution: {integrity: sha512-7ZXoZeX93kNb4/ICzOi2AlperVV6cAsNz8THqrbz+KNvpn47P2F/nFdK/BGhkoOsOwuYDuY57vccdZZrcd8/dA==}
+  /rollup-plugin-typescript2/0.37.0_id3sp2lbl4kx3dskm7teaj32um:
+    resolution: {integrity: sha512-S1r/4Ufi13Yg/chPlh4iSHWq2Zs/sIAodW5SKUoCQfy/DEQhkS2XRFEtv+NRq3iBO4WHHfqKtDPOC5lJTYm7OQ==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
@@ -4224,7 +4224,8 @@ packages:
       find-cache-dir: 3.3.2
       fs-extra: 10.1.0
       rollup: 2.79.0
-      tslib: 2.4.0
+      semver: 7.8.5
+      tslib: 2.8.1
       typescript: 4.8.2
     dev: true
 
@@ -4270,6 +4271,12 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+    dev: true
+
+  /semver/7.8.5:
+    resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
+    engines: {node: '>=10'}
+    hasBin: true
     dev: true
 
   /serialize-error/7.0.1:
@@ -4546,6 +4553,10 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: true
+
+  /tslib/2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.8.2:
